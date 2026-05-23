@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "spiritedonion"
+title = "0x9r4ngu"
 
 [params]
   displayName = "EN"
@@ -12,14 +12,14 @@ title = "spiritedonion"
   description = "Offensive security analyst — web, API, mobile & Active Directory exploitation."
 
 [params.author]
-  name = "spiritedonion"
-  image = "https://github.com/spiritedonion.png"
+  name = "0x9r4ngu"
+  image = "https://github.com/0x9r4ngu.png"
   headline = "Offensive Security Analyst"
   bio = "Web & API security specialist expanding into network exploitation and Active Directory attacks. I break things to understand them."
   links = [
-    { github = "https://github.com/spiritedonion" },
+    { github = "https://github.com/0x9r4ngu" },
     { instagram = "https://www.instagram.com/afghanistan_1991" },
     { linkedin = "https://www.linkedin.com/in/gaurangagautam/" },
     { x-twitter = "https://x.com/el_mango18" },
-    { discord = "https://discord.com/users/orangeymango" },
+    { discord = "https://discord.com/users/0x9r4ngu" },
   ]

@@ -1,9 +1,9 @@
 {{/*
-  Custom favicon partial — generates every icon from assets/spiritedonion.png
+  Custom favicon partial — generates every icon from assets/0x9r4ngu.png
   via Hugo's image pipeline. Output URLs are content-hashed, so a logo change
   invalidates browser caches automatically (no more stale Blowfish puffer).
 */}}
-{{ $logo := resources.Get "spiritedonion.png" }}
+{{ $logo := resources.Get "0x9r4ngu.png" }}
 {{ if $logo }}
   {{ $f16 := ($logo.Resize "16x16 png").RelPermalink }}
   {{ $f32 := ($logo.Resize "32x32 png").RelPermalink }}
