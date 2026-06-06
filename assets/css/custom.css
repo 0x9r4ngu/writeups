@@ -1374,4 +1374,107 @@ pre.chroma code,
   height: auto;
   border-radius: 8px;
   border: 1px solid var(--border-med);
+  cursor: zoom-in;
+  transition: opacity 0.3s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.prose img:hover {
+  border-color: var(--accent-ring);
+  box-shadow: 0 0 0 1px var(--accent-ring), 0 6px 22px rgba(0, 0, 0, 0.25);
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   IMAGE LIGHTBOX — click an article image to view it large + clear
+   First click: fit-to-viewport. Click image again: actual size + pan.
+   Click backdrop / × / Esc: close. (Markup injected by extend-footer.html)
+   ════════════════════════════════════════════════════════════════════ */
+
+#lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 3vmin;
+  background: rgba(8, 9, 14, 0.93);
+  backdrop-filter: blur(8px) saturate(1.1);
+  -webkit-backdrop-filter: blur(8px) saturate(1.1);
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+#lightbox-overlay.open { display: flex; opacity: 1; }
+
+#lightbox-overlay #lightbox-img {
+  max-width: 95vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid var(--border-med);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.75);
+  cursor: zoom-in;
+  transform: scale(0.97);
+  transition: transform 0.22s ease;
+}
+#lightbox-overlay.open #lightbox-img { transform: scale(1); }
+
+/* Actual-size mode — scroll/pan a large screenshot to read fine detail */
+#lightbox-overlay.zoomed {
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: auto;
+  padding: 0;
+}
+#lightbox-overlay.zoomed #lightbox-img {
+  max-width: none;
+  max-height: none;
+  width: auto;
+  height: auto;
+  transform: none;
+  border-radius: 0;
+  cursor: zoom-out;
+  margin: auto;
+}
+
+#lightbox-close {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--text-faint);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--border-med);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10001;
+  transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+#lightbox-close:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+#lightbox-caption {
+  position: fixed;
+  bottom: 0.9rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.3px;
+  color: var(--text-faint);
+  pointer-events: none;
+  padding: 0 1rem;
+  z-index: 10001;
 }
