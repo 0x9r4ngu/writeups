@@ -4,7 +4,6 @@ date: 2024-03-04
 draft: false
 description: "The objective of this lab is to showcase the ability to exploit SQL injection vulnerabilities to bypass security measures and gain unauthorized access to sensitive data."
 tags: ["web-security", "sql-injection", "portswigger", "labs"]
-featureimage: "https://www.qbssoftware.com/image/cache/catalog/Vendor%20Logos/PORTSWIGGE-600x315w.png"
 showTableOfContents: true
 showReadingTime: true
 ---
