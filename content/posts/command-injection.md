@@ -64,7 +64,7 @@ if __name__ == "__main__":
 - **Input Validation**: Concatenated `|` as payload.
 - **Bypass**: Used `|ls -la` payload for successful execution.
 
-![](/assets/cj/Untitled 1.png)
+![](/assets/cj/Untitled%201.png)
 
 ---
 
@@ -74,6 +74,6 @@ if __name__ == "__main__":
 - **Tightened Validation**: Additional characters like `&`, ``, `$`, `(` replaced with space.
 - **Bypass**: Identified space after `|` character, used `127.0.0.1|ls -ls` payload for success.
 
-![](/assets/cj/Untitled 2.png)
+![](/assets/cj/Untitled%202.png)
 
 ---
