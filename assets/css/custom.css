@@ -1336,3 +1336,42 @@ img { transition: opacity 0.3s ease; }
   }
   body { background: white !important; color: black !important; }
 }
+
+/* ════════════════════════════════════════════════════════════════════
+   OVERFLOW FIXES — long inline code + long code-block lines
+   Migrated writeups contain very long payloads/URLs. Previously inline
+   code was white-space:nowrap (ran off the page) and fenced blocks were
+   overflow:hidden (clipped long lines). Wrap both so nothing is lost.
+   ════════════════════════════════════════════════════════════════════ */
+
+/* Inline code: wrap long tokens instead of overflowing the container */
+.prose :not(pre) > code,
+.prose :not(pre) > code * {
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+}
+
+/* Fenced code blocks: wrap long lines (preserving indentation) so nothing
+   is clipped. pre-wrap means no horizontal overflow, so the terminal-bar
+   design and rounded corners stay intact. */
+.prose pre,
+.highlight pre,
+pre.chroma,
+.prose pre code,
+.highlight pre code,
+pre.chroma code,
+.chroma .cl,
+.chroma .line {
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+}
+
+/* Migrated post images: responsive, never overflow, subtle framing */
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-med);
+}

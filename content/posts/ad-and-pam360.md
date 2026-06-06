@@ -29,7 +29,7 @@ Together, AD and PAM360 can provide a secure and efficient environment for manag
 - Default Gateway: `192.168.85.2`
 - DNS Server: `127.0.0.1`
 
-![assets/AD-and-Pam360/image5.png](assets/AD-and-Pam360/image5.png)
+![assets/AD-and-Pam360/image5.png](/assets/AD-and-Pam360/image5.png)
 
 ### **Windows 10 Configuration:**
 
@@ -37,7 +37,7 @@ Together, AD and PAM360 can provide a secure and efficient environment for manag
 - Default Gateway: `192.168.85.2`
 - DNS Server: `192.168.85.3`
 
-![assets/AD-and-Pam360/image13.png](assets/AD-and-Pam360/image13.png)
+![assets/AD-and-Pam360/image13.png](/assets/AD-and-Pam360/image13.png)
 
 ### Installation and Setup of Pam360:
 
@@ -55,7 +55,7 @@ Together, AD and PAM360 can provide a secure and efficient environment for manag
 
 - Log in to Pam360 using the provided default credentials.
 
-![assets/AD-and-Pam360/image36.png](assets/AD-and-Pam360/image36.png)
+![assets/AD-and-Pam360/image36.png](/assets/AD-and-Pam360/image36.png)
 
 ### Profile Update Process:
 
@@ -66,7 +66,7 @@ Together, AD and PAM360 can provide a secure and efficient environment for manag
 
 Next process is profile update.
 
-![assets/AD-and-Pam360/image39.png](assets/AD-and-Pam360/image39.png)
+![assets/AD-and-Pam360/image39.png](/assets/AD-and-Pam360/image39.png)
 
 ### Addition of New Resources:
 
@@ -75,9 +75,9 @@ Next process is profile update.
 - Provide the necessary details for the new resources.
 - Save the provided details and proceed.
 
-![assets/AD-and-Pam360/image38.png](assets/AD-and-Pam360/image38.png)
+![assets/AD-and-Pam360/image38.png](/assets/AD-and-Pam360/image38.png)
 
-![assets/AD-and-Pam360/image35.png](assets/AD-and-Pam360/image35.png)
+![assets/AD-and-Pam360/image35.png](/assets/AD-and-Pam360/image35.png)
 
 ### Organizational Unit Import:
 
@@ -86,11 +86,11 @@ Next process is profile update.
 - Discover and import the organizational unit through the domain.
 - The organizational unit was imported through domain discovery.
 
-![assets/AD-and-Pam360/image16.png](assets/AD-and-Pam360/image16.png)
+![assets/AD-and-Pam360/image16.png](/assets/AD-and-Pam360/image16.png)
 
-![assets/AD-and-Pam360/image31.png](assets/AD-and-Pam360/image31.png)
+![assets/AD-and-Pam360/image31.png](/assets/AD-and-Pam360/image31.png)
 
-![assets/AD-and-Pam360/image19.png](assets/AD-and-Pam360/image19.png)
+![assets/AD-and-Pam360/image19.png](/assets/AD-and-Pam360/image19.png)
 
 **User Import:**
 
@@ -98,9 +98,9 @@ Next process is profile update.
 2. Click on "Import from Active Directory."
 3. Users will be imported through the domain discovery process.
 
-![assets/AD-and-Pam360/image37.png](assets/AD-and-Pam360/image37.png)
+![assets/AD-and-Pam360/image37.png](/assets/AD-and-Pam360/image37.png)
 
-![assets/AD-and-Pam360/image27.png](assets/AD-and-Pam360/image27.png)
+![assets/AD-and-Pam360/image27.png](/assets/AD-and-Pam360/image27.png)
 
 ---
 
@@ -119,68 +119,68 @@ Next process is profile update.
 - Press `Windows + R` to open the Run dialog box.
 - Type `control firewall.cpl` and press Enter to access the Windows Firewall settings.
 
-![assets/AD-and-Pam360/image25.png](assets/AD-and-Pam360/image25.png)
+![assets/AD-and-Pam360/image25.png](/assets/AD-and-Pam360/image25.png)
 
 ### Navigate to Advanced Settings:
 
 - In the Windows Firewall window, click on "Advanced settings" on the left-hand side.
 
-![assets/AD-and-Pam360/image14.png](assets/AD-and-Pam360/image14.png)
+![assets/AD-and-Pam360/image14.png](/assets/AD-and-Pam360/image14.png)
 
 ### Select Inbound Rules:
 
 - In the "Windows Defender Firewall with Advanced Security" window, click on "Inbound Rules" on the left-hand side.
 
-![assets/AD-and-Pam360/image4.png](assets/AD-and-Pam360/image4.png)
+![assets/AD-and-Pam360/image4.png](/assets/AD-and-Pam360/image4.png)
 
 ### Create a New Rule:
 
 - Right-click on the "Inbound Rules" panel and select "New Rule..."
 
-![assets/AD-and-Pam360/image23.png](assets/AD-and-Pam360/image23.png)
+![assets/AD-and-Pam360/image23.png](/assets/AD-and-Pam360/image23.png)
 
 ### Specify Port Forwarding:
 
 - Choose the "Port" option and click "Next."
 
-![assets/AD-and-Pam360/image11.png](assets/AD-and-Pam360/image11.png)
+![assets/AD-and-Pam360/image11.png](/assets/AD-and-Pam360/image11.png)
 
 ### Specify Port Number:
 
 - Enter the specific port number (8282) used by the Pam360 service and click "Next."
 
-![assets/AD-and-Pam360/image26.png](assets/AD-and-Pam360/image26.png)
+![assets/AD-and-Pam360/image26.png](/assets/AD-and-Pam360/image26.png)
 
 ### Allow Connection:
 
 - Choose "Allow the connection" and click "Next."
 
-![assets/AD-and-Pam360/image2.png](assets/AD-and-Pam360/image2.png)
+![assets/AD-and-Pam360/image2.png](/assets/AD-and-Pam360/image2.png)
 
 ### Select Network Location:
 
 - Uncheck the "Public" network location to restrict the rule to the private network only. Click "Next."
 
-![assets/AD-and-Pam360/image30.png](assets/AD-and-Pam360/image30.png)
+![assets/AD-and-Pam360/image30.png](/assets/AD-and-Pam360/image30.png)
 
 ### Name the Rule:
 
 - Optionally, provide a name and description for the rule to identify its purpose. Click "Finish."
 
-![assets/AD-and-Pam360/image6.png](assets/AD-and-Pam360/image6.png)
+![assets/AD-and-Pam360/image6.png](/assets/AD-and-Pam360/image6.png)
 
 ### Confirmation:
 
 - You should see a confirmation message indicating that the inbound rule has been successfully created.
 
-![assets/AD-and-Pam360/image10.png](assets/AD-and-Pam360/image10.png)
+![assets/AD-and-Pam360/image10.png](/assets/AD-and-Pam360/image10.png)
 
 ### Test Connection:
 
 - Copy the IP address of the Windows server (e.g., `192.168.85.3`) and append the port number (`8282`) along with the appropriate protocol (https://).
 - Open a web browser on the Windows 10 machine and paste the URL (e.g., `https://192.168.85.3:8282/`) to test the connection to the Pam360 service.
 
-![assets/AD-and-Pam360/image34.png](assets/AD-and-Pam360/image34.png)
+![assets/AD-and-Pam360/image34.png](/assets/AD-and-Pam360/image34.png)
 
 ---
 
@@ -195,69 +195,69 @@ In a corporate environment, managing desktop wallpapers across a network of comp
 - Create a dedicated folder named "Wallpaper" to store the images for wallpapers.
 - Ensure the folder is accessible by all users by enabling advanced sharing and assigning appropriate permissions.
 
-![assets/AD-and-Pam360/image21.png](assets/AD-and-Pam360/image21.png)
+![assets/AD-and-Pam360/image21.png](/assets/AD-and-Pam360/image21.png)
 
-![assets/AD-and-Pam360/image17.png](assets/AD-and-Pam360/image17.png)
+![assets/AD-and-Pam360/image17.png](/assets/AD-and-Pam360/image17.png)
 
-![assets/AD-and-Pam360/image3.png](assets/AD-and-Pam360/image3.png)
+![assets/AD-and-Pam360/image3.png](/assets/AD-and-Pam360/image3.png)
 
-![assets/AD-and-Pam360/image18.png](assets/AD-and-Pam360/image18.png)
+![assets/AD-and-Pam360/image18.png](/assets/AD-and-Pam360/image18.png)
 
-![assets/AD-and-Pam360/image24.png](assets/AD-and-Pam360/image24.png)
+![assets/AD-and-Pam360/image24.png](/assets/AD-and-Pam360/image24.png)
 
 ## Step 2: Group Policy Object Creation
 
 - Open Group Policy Management console within your domain.
 
-![assets/AD-and-Pam360/image9.png](assets/AD-and-Pam360/image9.png)
+![assets/AD-and-Pam360/image9.png](/assets/AD-and-Pam360/image9.png)
 
 - Create a new Group Policy Object (GPO) by right-clicking on your domain and selecting "Create a GPO in this domain, and Link it here."
 
-![assets/AD-and-Pam360/image7.png](assets/AD-and-Pam360/image7.png)
+![assets/AD-and-Pam360/image7.png](/assets/AD-and-Pam360/image7.png)
 
 - Name the GPO appropriately, such as "Wallpaper Policy."
 
-![assets/AD-and-Pam360/image22.png](assets/AD-and-Pam360/image22.png)
+![assets/AD-and-Pam360/image22.png](/assets/AD-and-Pam360/image22.png)
 
 ## Step 3: Configuring Group Policy Settings
 
 - Right-click on the newly created GPO and select "Edit" to access its settings.
 
-![assets/AD-and-Pam360/image29.png](assets/AD-and-Pam360/image29.png)
+![assets/AD-and-Pam360/image29.png](/assets/AD-and-Pam360/image29.png)
 
 - Navigate to User Configuration > Policies > Administrative Templates > Desktop > Desktop.
 
-![assets/AD-and-Pam360/image28.png](assets/AD-and-Pam360/image28.png)
+![assets/AD-and-Pam360/image28.png](/assets/AD-and-Pam360/image28.png)
 
 - Double-click on "Desktop Wallpaper" policy to edit it.
 
-![assets/AD-and-Pam360/image15.png](assets/AD-and-Pam360/image15.png)
+![assets/AD-and-Pam360/image15.png](/assets/AD-and-Pam360/image15.png)
 
 ## Step 4: Setting Wallpaper Path
 
 - Enable the policy and specify the complete network path of the image stored in the Wallpaper folder.
 - Ensure the path is accessible by all users in the domain.
 
-![assets/AD-and-Pam360/image33.png](assets/AD-and-Pam360/image33.png)
+![assets/AD-and-Pam360/image33.png](/assets/AD-and-Pam360/image33.png)
 
 ## Step 5: Update Policy Command
 
 - After configuring the policy, execute the command to update Group Policy on client computers:
 - Previous Wallpaper
 
-![assets/AD-and-Pam360/image12.png](assets/AD-and-Pam360/image12.png)
+![assets/AD-and-Pam360/image12.png](/assets/AD-and-Pam360/image12.png)
 
 - Update Policy Command
 
-![assets/AD-and-Pam360/image20.png](assets/AD-and-Pam360/image20.png)
+![assets/AD-and-Pam360/image20.png](/assets/AD-and-Pam360/image20.png)
 
 - Logout from the User
 
-![assets/AD-and-Pam360/image8.png](assets/AD-and-Pam360/image8.png)
+![assets/AD-and-Pam360/image8.png](/assets/AD-and-Pam360/image8.png)
 
 - Login from the User
 
-![assets/AD-and-Pam360/image32.png](assets/AD-and-Pam360/image32.png)
+![assets/AD-and-Pam360/image32.png](/assets/AD-and-Pam360/image32.png)
 
 ---
 
@@ -275,42 +275,42 @@ Roaming profiles allow users to access their personalized desktop environment fr
 
 - Create a dedicated folder for Roaming Profiles.
 
-![Untitled](assets/AD-and-Pam360/Untitled.png)
+![Untitled](/assets/AD-and-Pam360/Untitled.png)
 
 - Enable sharing for this folder.
 
-![Untitled](assets/AD-and-Pam360/Untitled%201.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%201.png)
 
 - Configure special permissions by accessing advanced settings.
 
-![Untitled](assets/AD-and-Pam360/Untitled%202.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%202.png)
 
 - Disable inheritance for this folder.
 
-![Untitled](assets/AD-and-Pam360/Untitled%203.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%203.png)
 
 - Select users or groups who will have Roaming Profiles.
 
-![Untitled](assets/AD-and-Pam360/Untitled%204.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%204.png)
 
 - Grant the required permissions.
 
-![Untitled](assets/AD-and-Pam360/Untitled%205.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%205.png)
 
 - Copy the generated network path.
 
-![Untitled](assets/AD-and-Pam360/Untitled%206.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%206.png)
 
 ## Step 2: Group Policy Object Creation
 
 - Navigate to AppData properties within Group Policy Management console.
 
-![Untitled](assets/AD-and-Pam360/Untitled%207.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%207.png)
 
 - Configure preferred settings and specify the network path for Roaming Profiles.
 
-![Untitled](assets/AD-and-Pam360/Untitled%208.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%208.png)
 
 - After logging in from a user, the Roaming Profile will be created in the network folder on the Windows Server.
 
-![Untitled](assets/AD-and-Pam360/Untitled%209.png)
+![Untitled](/assets/AD-and-Pam360/Untitled%209.png)

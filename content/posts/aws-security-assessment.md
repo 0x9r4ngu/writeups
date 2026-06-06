@@ -21,9 +21,9 @@ showReadingTime: true
 
 -   No permissions assigned.
 
-![](assets/aws/image45.png)
+![](/assets/aws/image45.png)
 
-![](assets/aws/image34.png)
+![](/assets/aws/image34.png)
 
 **Groups:**
 
@@ -37,13 +37,13 @@ showReadingTime: true
 
 -   EC2-Admin: Inline policy for EC2 Describe, Start, Stop.
 
-![](assets/aws/image36.png)
+![](/assets/aws/image36.png)
 
-![](assets/aws/image73.png)
+![](/assets/aws/image73.png)
 
-![](assets/aws/image35.png)
+![](/assets/aws/image35.png)
 
-![](assets/aws/image41.png)
+![](/assets/aws/image41.png)
 
 **Task 2: Add Users to Groups**
 
@@ -59,11 +59,11 @@ showReadingTime: true
 
 -   Users \> EC2-Admin \> Users tab \> Add user-3.
 
-![](assets/aws/image57.png)
+![](/assets/aws/image57.png)
 
-![](assets/aws/image26.png)
+![](/assets/aws/image26.png)
 
-![](assets/aws/image38.png)
+![](/assets/aws/image38.png)
 
 **Task 3: Sign-In and Test Users**
 
@@ -89,13 +89,13 @@ Sign in with IAM user-3.
 
 EC2 start/stop permissions, no S3 access.
 
-![](assets/aws/image15.png)
+![](/assets/aws/image15.png)
 
-![](assets/aws/image69.png)
+![](/assets/aws/image69.png)
 
-![](assets/aws/image70.png)
+![](/assets/aws/image70.png)
 
-![](assets/aws/image22.png)
+![](/assets/aws/image22.png)
 ---
 
 # **Lab 2**
@@ -129,17 +129,17 @@ EC2 start/stop permissions, no S3 access.
 
 -   Create VPC.
 
-![](assets/aws/image86.png)
+![](/assets/aws/image86.png)
 
-![](assets/aws/image29.png)
+![](/assets/aws/image29.png)
 
-![](assets/aws/image32.png)
+![](/assets/aws/image32.png)
 
-![](assets/aws/image61.png)
+![](/assets/aws/image61.png)
 
-![](assets/aws/image71.png)
+![](/assets/aws/image71.png)
 
-![](assets/aws/image67.png)
+![](/assets/aws/image67.png)
 
 **Task 2: Create Additional Subnets**
 
@@ -171,13 +171,13 @@ EC2 start/stop permissions, no S3 access.
 
 -   **Associate route table with new public subnet.**
 
-![](assets/aws/image53.png)
+![](/assets/aws/image53.png)
 
-![](assets/aws/image8.png)
+![](/assets/aws/image8.png)
 
-![](assets/aws/image85.png)
+![](/assets/aws/image85.png)
 
-![](assets/aws/image14.png)
+![](/assets/aws/image14.png)
 
 **Task 3: Create a VPC Security Group**
 
@@ -196,7 +196,7 @@ EC2 start/stop permissions, no S3 access.
 
 -   **Add inbound rule: HTTP from Anywhere-IPv4.**
 
-![](assets/aws/image2.png)
+![](/assets/aws/image2.png)
 
 Task 4: Launch a Web Server Instance
 
@@ -228,15 +228,15 @@ Task 4: Launch a Web Server Instance
 
 -   Open browser, paste DNS, view AWS logo and metadata page.
 
-![](assets/aws/image24.png)
+![](/assets/aws/image24.png)
 
-![](assets/aws/image75.png)
+![](/assets/aws/image75.png)
 
-![](assets/aws/image33.png)
+![](/assets/aws/image33.png)
 
-![](assets/aws/image74.png)
+![](/assets/aws/image74.png)
 
-![](assets/aws/image66.png)
+![](/assets/aws/image66.png)
 ---
 
 # **Lab 3**
@@ -269,19 +269,19 @@ Task 4: Launch a Web Server Instance
 -   **Wait for instance to display \"Running\" with \"2/2 checks
     > passed.\"**
 
-![](assets/aws/image10.png)
+![](/assets/aws/image10.png)
 
-![](assets/aws/image48.png)
+![](/assets/aws/image48.png)
 
-![](assets/aws/image82.png)
+![](/assets/aws/image82.png)
 
-![](assets/aws/image17.png)
+![](/assets/aws/image17.png)
 
-![](assets/aws/image18.png)
+![](/assets/aws/image18.png)
 
-![](assets/aws/image62.png)
+![](/assets/aws/image62.png)
 
-![](assets/aws/image78.png)
+![](/assets/aws/image78.png)
 
 **Task 2: Monitor Your Instance**
 
@@ -293,7 +293,7 @@ Task 4: Launch a Web Server Instance
 
 4.  View system log and instance screenshot for troubleshooting.
 
-![](assets/aws/image39.png)
+![](/assets/aws/image39.png)
 
 **Task 3: Update Your Security Group and Access the Web Server**
 
@@ -307,9 +307,9 @@ Task 4: Launch a Web Server Instance
 
 4.  Refresh web browser, check if you can access the web server.
 
-![](assets/aws/image12.png)
+![](/assets/aws/image12.png)
 
-![](assets/aws/image30.png)
+![](/assets/aws/image30.png)
 
 **Task 4: Resize Your Instance: Instance Type and EBS Volume**
 
@@ -321,9 +321,9 @@ Task 4: Launch a Web Server Instance
 
 4.  Start the resized instance.
 
-![](assets/aws/image5.png)
+![](/assets/aws/image5.png)
 
-![](assets/aws/image77.png)
+![](/assets/aws/image77.png)
 
 **Task 5: Explore EC2 Limits**
 
@@ -334,7 +334,7 @@ Task 4: Launch a Web Server Instance
 
 3.  Observe and explore the default limits for running instances.
 
-![](assets/aws/image6.png)
+![](/assets/aws/image6.png)
 
 **Task 6: Test Termination Protection**
 
@@ -350,9 +350,9 @@ Task 4: Launch a Web Server Instance
 
 6.  Terminate the instance.
 
-![](assets/aws/image83.png)
+![](/assets/aws/image83.png)
 
-![](assets/aws/image72.png)
+![](/assets/aws/image72.png)
 ---
 
 # **Lab 4**
@@ -380,7 +380,7 @@ Task 4: Launch a Web Server Instance
 
     -   Create Volume
 
-![](assets/aws/image56.png)
+![](/assets/aws/image56.png)
 
 **Task 2: Attach the Volume to an Instance**
 
@@ -392,7 +392,7 @@ Task 4: Launch a Web Server Instance
 
 4.  Attach volume.
 
-![](assets/aws/image3.png)
+![](/assets/aws/image3.png)
 
 **Task 3: Connect to Your Amazon EC2 Instance**
 
@@ -453,7 +453,7 @@ Task 4: Launch a Web Server Instance
     -   **echo \"/dev/sdf /mnt/data-store ext3 defaults,noatime 1 2\" \|
         > sudo tee -a /etc/fstab**
 
-![](assets/aws/image40.png)
+![](/assets/aws/image40.png)
 
 -   **View configuration file:**
 
@@ -481,7 +481,7 @@ Task 4: Launch a Web Server Instance
 
     -   cat /mnt/data-store/file.txt
 
-![](assets/aws/image88.png)
+![](/assets/aws/image88.png)
 
 **Task 5: Create an Amazon EBS Snapshot**
 
@@ -493,7 +493,7 @@ Task 4: Launch a Web Server Instance
 
 4.  Create snapshot.
 
-![](assets/aws/image84.png)
+![](/assets/aws/image84.png)
 
 **Task 6: Restore the Amazon EBS Snapshot**
 
@@ -539,9 +539,9 @@ Task 4: Launch a Web Server Instance
 
     -   **ls /mnt/data-store2/**
 
-![](assets/aws/image20.png)
+![](/assets/aws/image20.png)
 
-![](assets/aws/image21.png)
+![](/assets/aws/image21.png)
 ---
 
 # **Lab 5**
@@ -574,7 +574,7 @@ Task 4: Launch a Web Server Instance
 
 -   Choose \"Create security group.\"
 
-![](assets/aws/image65.png)
+![](/assets/aws/image65.png)
 
 **Task 2: Create a DB Subnet Group**
 
@@ -598,7 +598,7 @@ Task 4: Launch a Web Server Instance
 
 -   Choose \"Create.\"
 
-![](assets/aws/image1.png)
+![](/assets/aws/image1.png)
 
 **Task 3: Create an Amazon RDS DB Instance**
 
@@ -637,25 +637,25 @@ Task 4: Launch a Web Server Instance
 
 -   Wait for the database to be available, copy the Endpoint.
 
-![](assets/aws/image27.png)
+![](/assets/aws/image27.png)
 
-![](assets/aws/image16.png)
+![](/assets/aws/image16.png)
 
-![](assets/aws/image28.png)
+![](/assets/aws/image28.png)
 
-![](assets/aws/image23.png)
+![](/assets/aws/image23.png)
 
-![](assets/aws/image55.png)
+![](/assets/aws/image55.png)
 
-![](assets/aws/image80.png)
+![](/assets/aws/image80.png)
 
-![](assets/aws/image58.png)
+![](/assets/aws/image58.png)
 
-![](assets/aws/image63.png)
+![](/assets/aws/image63.png)
 
-![](assets/aws/image42.png)
+![](/assets/aws/image42.png)
 
-![](assets/aws/image89.png)
+![](/assets/aws/image89.png)
 
 **Task 4: Interact with Your Database**
 
@@ -681,7 +681,7 @@ Task 4: Launch a Web Server Instance
 
 -   **Choose \"Submit.\"**
 
-![](assets/aws/image4.png)
+![](/assets/aws/image4.png)
 ---
 
 # **Lab 6**
@@ -709,11 +709,11 @@ Task 4: Launch a Web Server Instance
 
 -   Choose \"Create image.\"
 
-![](assets/aws/image37.png)
+![](/assets/aws/image37.png)
 
-![](assets/aws/image11.png)
+![](/assets/aws/image11.png)
 
-![](assets/aws/image87.png)
+![](/assets/aws/image87.png)
 
 **Task 2: Create a Load Balancer**
 
@@ -754,17 +754,17 @@ Task 4: Launch a Web Server Instance
 
 -   Choose \"Create load balancer.\"
 
-![](assets/aws/image43.png)
+![](/assets/aws/image43.png)
 
-![](assets/aws/image46.png)
+![](/assets/aws/image46.png)
 
-![](assets/aws/image59.png)
+![](/assets/aws/image59.png)
 
-![](assets/aws/image49.png)
+![](/assets/aws/image49.png)
 
-![](assets/aws/image47.png)
+![](/assets/aws/image47.png)
 
-![](assets/aws/image60.png)
+![](/assets/aws/image60.png)
 
 **Task 3: Create a Launch Template and an Auto Scaling Group**
 
@@ -816,15 +816,15 @@ Task 4: Launch a Web Server Instance
 
 Choose \"Create Auto Scaling group.\"
 
-![](assets/aws/image68.png)
+![](/assets/aws/image68.png)
 
-![](assets/aws/image76.png)
+![](/assets/aws/image76.png)
 
-![](assets/aws/image9.png)
+![](/assets/aws/image9.png)
 
-![](assets/aws/image25.png)
+![](/assets/aws/image25.png)
 
-![](assets/aws/image13.png)
+![](/assets/aws/image13.png)
 
 **Task 4: Verify that Load Balancing is Working**
 
@@ -863,25 +863,25 @@ Choose \"Create Auto Scaling group.\"
 
 8.  Verify additional instances were launched in EC2 \> Instances.
 
-![](assets/aws/image54.png)
+![](/assets/aws/image54.png)
 
-![](assets/aws/image50.png)
+![](/assets/aws/image50.png)
 
-![](assets/aws/image7.png)
+![](/assets/aws/image7.png)
 
-![](assets/aws/image64.png)
+![](/assets/aws/image64.png)
 
-![](assets/aws/image51.png)
+![](/assets/aws/image51.png)
 
-![](assets/aws/image52.png)
+![](/assets/aws/image52.png)
 
-![](assets/aws/image81.png)
+![](/assets/aws/image81.png)
 
-![](assets/aws/image31.png)
+![](/assets/aws/image31.png)
 
-![](assets/aws/image44.png)
+![](/assets/aws/image44.png)
 
-![](assets/aws/image79.png)
+![](/assets/aws/image79.png)
 
 **Task 6: Terminate Web Server 1**
 
@@ -892,5 +892,5 @@ Choose \"Create Auto Scaling group.\"
 
 3.  Choose \"Terminate.\"
 
-![](assets/aws/image19.png)
+![](/assets/aws/image19.png)
 ---
