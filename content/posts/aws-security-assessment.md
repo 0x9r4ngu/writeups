@@ -4,7 +4,6 @@ date: 2024-02-19
 draft: false
 description: "EC2 start/stop permissions, no S3 access."
 tags: ["aws", "aws-lab", "vpc", "ec2", "rds", "auto-scaling", "security-groups", "subnets"]
-featureimage: "https://k21academy.com/wp-content/uploads/2021/09/AWS-2.png"
 showTableOfContents: true
 showReadingTime: true
 ---

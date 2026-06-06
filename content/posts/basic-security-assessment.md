@@ -4,7 +4,6 @@ date: 2024-03-04
 draft: false
 description: "Cybersecurity is the practice of protecting computer systems, networks, and data from unauthorized access or damage. This document outlines basic cybersecurity practices to help in"
 tags: ["cybersecurity", "network-security", "application-security", "cloud-security", "mobile-security", "iot-security", "data-security", "password-management"]
-featureimage: "https://dnycf48t040dh.cloudfront.net/fit-in/840x473/Basic-Guidelines-for-Internet-Security.jpeg"
 showTableOfContents: true
 showReadingTime: true
 ---

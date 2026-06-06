@@ -4,7 +4,6 @@ date: 2024-04-21
 draft: false
 description: "Searches for specific text contained on any web page."
 tags: ["bug-bounty", "vulnerabilities", "security-flaws", "penetration-testing", "web-security", "exploits", "cybersecurity", "threat-hunting"]
-featureimage: "https://miro.medium.com/v2/resize:fit:1400/1*wBuE9-f32uHnqH9Sq4EFiQ.png"
 showTableOfContents: true
 showReadingTime: true
 ---

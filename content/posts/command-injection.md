@@ -4,7 +4,6 @@ date: 2024-03-06
 draft: false
 description: "url = '<http://127.0.0.1:42001/vulnerabilities/exec/'"
 tags: ["cybersecurity", "dvwa", "command-injection", "web-security", "vulnerability", "exploitation", "proof-of-concept"]
-featureimage: "https://cdn.acunetix.com/wp-content/uploads/2019/06/11110845/command-injection-910x478.png"
 showTableOfContents: true
 showReadingTime: true
 ---

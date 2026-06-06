@@ -4,7 +4,6 @@ date: 2024-04-12
 draft: false
 description: "Active Directory (AD) is a directory service that Microsoft developed for the Windows domain networks. It is included in most Windows Server operating systems. It provides a variet"
 tags: ["active-directory", "pam360", "privileged-access", "windows"]
-featureimage: "https://www.digiboy.ir/wp-content/uploads/ManageEngine-PAM360.png"
 showTableOfContents: true
 showReadingTime: true
 ---

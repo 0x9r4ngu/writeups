@@ -4,7 +4,6 @@ date: 2024-02-20
 draft: false
 description: "I would like to express my heartfelt gratitude to all those who have contributed and supported me during the completion of this project titled 'fortigate' at Texas College of Manag"
 tags: ["cybersecurity", "data-security", "network-security", "fortigate", "enterprise-solutions", "data-management", "information-security", "encryption"]
-featureimage: "https://images.ctfassets.net/aoyx73g9h2pg/2pgojF0xYbPiO90nEe6MQn/b3d29d5740c3ac82cf3ae21099c6ba60/1IzqGZkxtu1msh1CA4R3X_BpRTQa_FRu1_1-Featured-1024x572.jpg?w=1920&q=100"
 showTableOfContents: true
 showReadingTime: true
 ---
