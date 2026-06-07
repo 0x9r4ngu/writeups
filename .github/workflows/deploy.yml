@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify --baseURL "https://0x9r4ngu.github.io/writeups/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
