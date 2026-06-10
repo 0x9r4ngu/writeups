@@ -13,7 +13,7 @@ title = "0x9r4ngu"
 
 [params.author]
   name = "0x9r4ngu"
-  image = "https://github.com/0x9r4ngu.png"
+  image = "https://avatars.githubusercontent.com/u/157475053"
   headline = "Offensive Security Analyst"
   bio = "Web & API security specialist expanding into network exploitation and Active Directory attacks. I break things to understand them."
   links = [
