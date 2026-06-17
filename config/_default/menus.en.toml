@@ -31,12 +31,6 @@
   weight = 23
 
 [[main]]
-  name = "Network"
-  parent = "Topics"
-  pageRef = "tags/network"
-  weight = 24
-
-[[main]]
   name = "About"
   pageRef = "about"
   weight = 30

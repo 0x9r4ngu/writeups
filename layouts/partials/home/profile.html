@@ -50,7 +50,7 @@
   <div class="topics-grid">
     {{ range $tags.ByCount }}
       {{ if in $navTopics (.Page.Title | urlize) }}
-        <a href="{{ "/tags/" | relURL }}{{ .Page.Title | urlize }}/" class="topic-tag">
+        <a href="{{ .Page.RelPermalink }}" class="topic-tag">
           <span class="topic-name">{{ .Page.Title }}</span>
           <span class="topic-count">{{ .Count }}</span>
         </a>
