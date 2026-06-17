@@ -9,12 +9,12 @@ title = "0x9r4ngu"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  description = "Offensive security analyst — web, API, mobile & Active Directory exploitation."
+  description = "Offensive security researcher — web, API, mobile & Active Directory exploitation."
 
 [params.author]
   name = "0x9r4ngu"
   image = "https://avatars.githubusercontent.com/u/157475053"
-  headline = "Offensive Security Analyst"
+  headline = "Offensive Security Researcher"
   bio = "Web & API security specialist expanding into network exploitation and Active Directory attacks. I break things to understand them."
   links = [
     { github = "https://github.com/0x9r4ngu" },

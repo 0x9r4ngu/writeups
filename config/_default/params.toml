@@ -28,7 +28,7 @@ disableTextInHeader = false
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-defaultSocialImage = "0x9r4ngu.png"  # resolved from assets/, generates OG/Twitter card image
+defaultSocialImage = "spiritedonion.png"  # resolved from assets/, generates OG/Twitter card image
 hotlinkFeatureImage = false
 # Thumbnail aspect ratio as a number (e.g., "1.5", "1.0", "1.777")
 # thumbnailAspectRatio = "1.5"
