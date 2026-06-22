@@ -14,7 +14,7 @@ showReadingTime: true
 - **Injection**: Concatenated `;ls -la` as payload.
 - **Vulnerability**: Lack of input validation allows command execution.
 
-![](/assets/cj/Untitled.png)
+![](/writeups/assets/cj/Untitled.png)
 
 ```python
 import sys
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 - **Input Validation**: Concatenated `|` as payload.
 - **Bypass**: Used `|ls -la` payload for successful execution.
 
-![](/assets/cj/Untitled%201.png)
+![](/writeups/assets/cj/Untitled%201.png)
 
 ---
 
@@ -73,6 +73,6 @@ if __name__ == "__main__":
 - **Tightened Validation**: Additional characters like `&`, ``, `$`, `(` replaced with space.
 - **Bypass**: Identified space after `|` character, used `127.0.0.1|ls -ls` payload for success.
 
-![](/assets/cj/Untitled%202.png)
+![](/writeups/assets/cj/Untitled%202.png)
 
 ---
