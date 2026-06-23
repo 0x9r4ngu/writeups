@@ -35,6 +35,16 @@
     {% assign second_level_pages = second_level_pages | sort: 'url' %}
     {% assign third_level_pages = third_level_pages | sort: 'url' %}
 
+    {%- comment -%} Force Home (root, url "/index.html") to the top; categories follow. {%- endcomment -%}
+    {%- assign ordered_first = "" | split: "" -%}
+    {%- for node in first_level_pages -%}
+        {%- if node.url == "/index.html" -%}{%- assign ordered_first = ordered_first | push: node -%}{%- endif -%}
+    {%- endfor -%}
+    {%- for node in first_level_pages -%}
+        {%- unless node.url == "/index.html" -%}{%- assign ordered_first = ordered_first | push: node -%}{%- endunless -%}
+    {%- endfor -%}
+    {%- assign first_level_pages = ordered_first -%}
+
     <ul class="nav-list">
     {%- for node in first_level_pages -%}
         {%- assign node_url = node.url | remove: 'index.html' -%}

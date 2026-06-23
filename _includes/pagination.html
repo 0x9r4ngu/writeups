@@ -26,7 +26,13 @@
                             {% endif %}
                             <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ thumbnail_url }}') !important"></a>
                         {% else %}
-                            <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post empty" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ '/assets/img/thumbnail/empty.jpg' | prepend: site.baseurl }}') !important"></a>
+                            {%- assign thumb_tree = sub_page.path | split: "/" -%}
+                            {% if thumb_tree.size > 2 %}
+                                {%- assign cat_thumb = '/assets/img/thumbnail/cat-' | append: thumb_tree[1] | append: '.png' | prepend: site.baseurl -%}
+                                <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ cat_thumb }}') !important"></a>
+                            {% else %}
+                                <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post empty" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ '/assets/img/thumbnail/empty.jpg' | prepend: site.baseurl }}') !important"></a>
+                            {% endif %}
                         {% endif %}
                     </div>
                     <div class="box_contents">
@@ -59,17 +65,4 @@
             <h1>Sorry, No posts found</h1>
         </div>
     {% endif %}
-</div>
-<div class="pagination">
-    <nav class="pagination-container">
-        <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
-            &lt;
-        </button>
-    
-        <div id="pagination-numbers"></div>
-      
-        <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
-            &gt;
-        </button>
-    </nav>
 </div>
