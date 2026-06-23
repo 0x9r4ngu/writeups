@@ -1,0 +1,65 @@
+title: 0x9r4ngu
+description: "Offensive security writeups — web, API, mobile, Active Directory & cloud."
+url: "https://0x9r4ngu.github.io"
+logo_img: "/assets/img/profile.png"
+profile_img: "/assets/img/profile.png"
+
+# Social Links
+email: gaurangaiscool@gmail.com
+github_username: 0x9r4ngu
+twitter_username: 0x9r4ngu
+instagram_username: afghanistan_1991
+linkedin_username: gaurangagautam
+facebook_username:
+
+# External API (comments / analytics disabled)
+giscus_repo:
+giscus_repoId:
+giscus_category:
+giscus_categoryId:
+goatcounter_code:
+google_analytics:
+
+# Served as a project page at https://0x9r4ngu.github.io/writeups/
+baseurl: /writeups
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-loading-lazy
+
+exclude:
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      date: "1900-01-01"
+  -
+    # writeups contain raw template payloads ({{7*7}}, {% ... %}); don't let Liquid
+    # execute them. Scoped to _pages only so theme assets (style.scss) still render.
+    scope:
+      path: "_pages"
+    values:
+      render_with_liquid: false
+
+# Markdown newline activator
+kramdown:
+  input: GFM
+  hard_wrap: true
