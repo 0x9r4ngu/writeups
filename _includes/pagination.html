@@ -28,8 +28,9 @@
                         {% else %}
                             {%- assign thumb_tree = sub_page.path | split: "/" -%}
                             {% if thumb_tree.size > 2 %}
-                                {%- assign cat_thumb = '/assets/img/thumbnail/cat-' | append: thumb_tree[1] | append: '.png' | prepend: site.baseurl -%}
-                                <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ cat_thumb }}') !important"></a>
+                                {%- assign post_slug = sub_page.path | split: "/" | last | remove: ".md" -%}
+                                {%- assign post_thumb = '/assets/img/thumbnail/post-' | append: post_slug | append: '.png' | prepend: site.baseurl -%}
+                                <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ post_thumb }}') !important"></a>
                             {% else %}
                                 <a href="{{ sub_page.url | prepend: site.baseurl }}" class="thumbnail_post empty" loading="lazy" aria-label="thumbnail_post" style="background-image:url('{{ '/assets/img/thumbnail/empty.jpg' | prepend: site.baseurl }}') !important"></a>
                             {% endif %}
