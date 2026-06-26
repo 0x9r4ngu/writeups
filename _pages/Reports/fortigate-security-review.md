@@ -1,6 +1,7 @@
 ---
 title: "FortiGate Implementation for Enhanced Enterprise Data Security"
 date: "2024-02-20"
+thumbnail: "/assets/fortigate/fg-01.png"
 tags:
     - cybersecurity
     - data-security
@@ -398,34 +399,34 @@ The FortiGate project is a significant advancement in data security and efficien
 
 # SCREENSHOTS
 
-![](https://lh7-us.googleusercontent.com/t_iCdJY9t5j9N4a7vkWBLYR_CrrbeDcz6-8wV6fU70knN_lpcnN5pUo5MXGuARdEVHGNpJScx1Iydv8un_AKvTpw_4vqnsIbeoLGM8mkgiNdq5-Z0k6lIUHx-QBrtYsNbwacGHgW3_0GA7le_-tUsQ)
+![](/writeups/assets/fortigate/fg-01.png)
 
-![](https://lh7-us.googleusercontent.com/hY1NpaLVHnqDLmF8UWUlZSiM75NrF4J3q7jtl-ZJa1hTs3uScSXT9GCUIcbkhOnwiAA0lYUAp6xJxGgHUAgtXIdx_J3n8eejfm385mAFhTcHiRpEt_Qk2FvXIvD0qUea6AR5sLEONHidw9A1riUajQ)
+![](/writeups/assets/fortigate/fg-02.png)
 
-![](https://lh7-us.googleusercontent.com/BDLEhyALhLNJpmQfkxI7u9DT6lZUKLKLunwxFqyaLeMxoHYnhL_7sgpXhizbFbPkcM5oL1VwlMMsd5Sjo9vPtJEbftTXLrps6gClLYF7WYIB7xayAqDr0ZsTim6ivlobedbZgMF3oV8Uacud_Rq0rQ)
+![](/writeups/assets/fortigate/fg-03.png)
 
-![](https://lh7-us.googleusercontent.com/Vzyghfuwfp84S0cqM0LYnu5ZpZRxZnb7V4_bhxA70jn3LQlkoERMYFrHMccV23yVM0FoyuXhp9bANnqqYc8MhsaDmSbt_vmeA7-CVfCkeo7NNKhZvz13TLo2_3QE4iuXF7vZqmM218gfJCCz6PTaCA)
+![](/writeups/assets/fortigate/fg-04.png)
 
-![](https://lh7-us.googleusercontent.com/3kYZD_hDZMVgAj8xMVnfR6OaTuhoVwaahjfHXxxj4qGZwiQfD4G2xT1BAKXnhh8zCXRx6gpqunnZ_XwIwsP7yotREuZQumi28_oClraZGcwMbj3AOS-AOJOvUh2TwpjKqF2Ig2zjwgU_HcVu6BtIng)
+![](/writeups/assets/fortigate/fg-05.png)
 
-![](https://lh7-us.googleusercontent.com/mDsNuMMDHs0KYb2YVfRA2cFySz-C38eRPnIG_CTTKo4TgAo9AhNyFaOs6aQZX9-ko6EfKcmOOZilscyxisDYQ2E9Nq3mqOKJc4VGVAotRXVVY8oNYd8DxKLSkox17bLZT9dteBP_cJDQs0hi2ke9NA)
+![](/writeups/assets/fortigate/fg-06.png)
 
-![](https://lh7-us.googleusercontent.com/TOtxmolRSXaNoQZ_YdwzvJ-N8STJ26yndJAbQ1h7V1gdaZ-AxrrFJBQb7AkEBm9QMTmq6Dks2Qlqd8tVZU3HK0A7oxRuCOcUmks1LRzJ3czkf91MW1TsMEV1Y7oeHt7GykvJMiUIgFtRLul5jmqyaA)
+![](/writeups/assets/fortigate/fg-07.png)
 
-![](https://lh7-us.googleusercontent.com/37L9y3DeyZUc9i_4H0y0SovT1h5foh9GVGHSe1MOFrai4ruyOFjUNQM92dkuTL2nib9QcIhxUL1X6Ov8o1wLNbwC8cbSiqq5rhe0SYNP71XJlH7f1zpifU3-99TsoMb6AMYkXo8X2NhupeYJ80gfZQ)
+![](/writeups/assets/fortigate/fg-08.png)
 
 .
 
-![](https://lh7-us.googleusercontent.com/fOB_R5ap3Zrsb3gng11jeJarMuuMdHzABC504ac1WDMZADFQvAMRwwNFZaP18VAqjsIN65YzjjITXtxPByIFA17l4vuOTs05BDe-ifLer6oRUnlMm-4_mXj7bbhRXaH8G_h8MoUS-pyqMKiTwbAwzA)
+![](/writeups/assets/fortigate/fg-09.png)
 
-![](https://lh7-us.googleusercontent.com/kqPBbDwdXWe5CB0UnkPzOE2O4JNiZuOE3-k5wXdOjPj4sxJAe1jTk3UEuszrJMcFFb9r-WYN8IGMkrqEkcnhw4acPogs4UA3SDsMkEptHUk3O2YsF6VftrzZ2c1KT5EEDbZUsdDuREsnZeuSuhND7A)
+![](/writeups/assets/fortigate/fg-10.png)
 
-![](https://lh7-us.googleusercontent.com/q_xELubQZVCX0GoG-UeTkNtCcpYff6TzI7XemjE8_eI4GTGHdSRGF7Jtq6SjRGQPaqS9Xzgxe81VY6Q4txl7dy6Z1EukVHeP0Ld04B3qXkPSQww_anx43F0CvhFNHuwjp6XtYgUzQJntKf1O3VzM0A)
+![](/writeups/assets/fortigate/fg-11.png)
 
-![](https://lh7-us.googleusercontent.com/V-AxSRhcz4UF-lta5m7TY6btcM6D5pwmPgbuH4aVZSYpmrYo2Wtl0YBf_-L7u5lOn7ykNayFAp2EoqbyyVQ9ID3OH_h1mZjgIubVoXKvhkYqp9bDwHA4D3wl2J6hRXKZ0BefdKszuRTzbnCVN9CKTQ)
+![](/writeups/assets/fortigate/fg-12.png)
 
-![](https://lh7-us.googleusercontent.com/4CIAtSY5SOh38gipolYjwrk1UtaxTSPGzWSg6MvQda3alzDMF-vhlagoiVx7xmsisNxA8Pvlnq0_eaVD6xrCSvyUG_VX_evKNU8bADXHsnUGmPhUf-nx2w-UBTzP92AHa6m2S3VRU-eMwAU_P8uAOg)
+![](/writeups/assets/fortigate/fg-13.png)
 
-![](https://lh7-us.googleusercontent.com/nF5duEqrzmhRiOvwiUjhxutbwPeVPma1CASSmfVxfjkAWDGrV4Wq6hP-szEJMegT4ZmBn6m-ZhfBxemFDtG8mbjWX5voXkh0okdQwL5UULjqSCrbAP8kK_yBwU9-nzP5SqlKyV7Mds9IRBzsHklVaA)
+![](/writeups/assets/fortigate/fg-14.png)
 
-![](https://lh7-us.googleusercontent.com/rq5XpFXV_8f0QjsclOwkmv4ZIMYEXNFCzYeW21L9899JV2DWEnfrk-n9uPz9bMiCqU_aDjSU_pme_BkMpQyWtGDKVhdpp-DLiF67P2p9l_RHx68fMsTD8sNaX1986s0MT3O8ppRdROxiaUk9pKkT8g)
+![](/writeups/assets/fortigate/fg-15.png)

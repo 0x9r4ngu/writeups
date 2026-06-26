@@ -1,6 +1,7 @@
 ---
 title: "JWT Algorithm Confusion: From RS256 to HS256"
 date: "2026-04-10"
+thumbnail: "/assets/img/thumbnail/post-jwt-algorithm-confusion.png"
 tags:
     - web
     - jwt

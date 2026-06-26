@@ -1,6 +1,7 @@
 ---
 title: "Android Application Security: 30 Common Vulnerabilities and How to Fix Them"
 date: "2026-03-17"
+thumbnail: "/assets/img/thumbnail/post-android-30-vulnerabilities.png"
 tags:
     - mobile
     - android

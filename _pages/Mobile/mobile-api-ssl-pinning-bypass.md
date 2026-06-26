@@ -1,6 +1,7 @@
 ---
 title: "Mobile API Testing: Bypassing SSL Pinning with Frida"
 date: "2026-03-22"
+thumbnail: "/assets/img/thumbnail/post-mobile-api-ssl-pinning-bypass.png"
 tags:
     - mobile
     - api

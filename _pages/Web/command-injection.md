@@ -1,6 +1,7 @@
 ---
 title: "DVWA Command Injection"
 date: "2024-03-06"
+thumbnail: "/assets/cj/Untitled.png"
 tags:
     - cybersecurity
     - dvwa

@@ -1,6 +1,7 @@
 ---
 title: "Bug Bounty Essentials - A Comprehensive Cheatsheet"
 date: "2024-04-21"
+thumbnail: "/assets/img/thumbnail/post-bug-bounty-cheatsheet.png"
 tags:
     - bug-bounty
     - vulnerabilities

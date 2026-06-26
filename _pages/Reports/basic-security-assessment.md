@@ -1,6 +1,7 @@
 ---
 title: "Basic Security"
 date: "2024-03-04"
+thumbnail: "/assets/img/thumbnail/post-basic-security-assessment.png"
 tags:
     - cybersecurity
     - network-security

@@ -1,6 +1,7 @@
 ---
 title: "Port Swigger Labs"
 date: "2024-03-04"
+thumbnail: "/assets/img/thumbnail/post-portswigger-web-security-labs.png"
 tags:
     - web-security
     - sql-injection

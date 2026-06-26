@@ -1,6 +1,7 @@
 ---
 title: "Rate Limit Bypass: OTP Brute-Force with IP Rotation"
 date: "2026-04-26"
+thumbnail: "/assets/img/thumbnail/post-rate-limit-bypass-otp-brute-force.png"
 tags:
     - web
     - api
@@ -144,10 +145,6 @@ Each generated request carries:
 
 1. **Header**: `X-Forwarded-For: [current IP]` (e.g., `X-Forwarded-For: 1.1.1.1`)
 2. **JSON Body**: `{"OTP": "[padded OTP]"}` (e.g., `{"OTP": "318121"}`)
-
-### Flowchart
-
-![Flowchart](https://raw.githubusercontent.com/0x9r4ngu/Race-Condition-Scripts/refs/heads/main/Race%20Condition.png)
 
 ---
 

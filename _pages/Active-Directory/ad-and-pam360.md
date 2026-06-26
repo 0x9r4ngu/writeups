@@ -1,6 +1,7 @@
 ---
 title: "Active Directory and Pam360"
 date: "2024-04-12"
+thumbnail: "/assets/AD-and-Pam360/image5.png"
 tags:
     - active-directory
     - pam360

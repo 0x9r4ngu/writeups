@@ -1,6 +1,7 @@
 ---
 title: "IDOR to Account Takeover: Chaining Broken Access Control"
 date: "2026-04-20"
+thumbnail: "/assets/img/thumbnail/post-idor-to-account-takeover.png"
 tags:
     - web
     - idor

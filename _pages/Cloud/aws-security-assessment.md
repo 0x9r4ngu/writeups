@@ -1,6 +1,7 @@
 ---
 title: "AWS Cloud Infrastructure"
 date: "2024-02-19"
+thumbnail: "/assets/aws/image45.png"
 tags:
     - aws
     - aws-lab
